@@ -28,6 +28,8 @@ h1,h2,h3,h4,h5,h6{
 }
 a{
   text-decoration: none; /* 밑줄 없애기 */
+  color: white;
+  cursor: url(../img/click.cur), auto !important;
 }
 ul{
   list-style: none; /* ul의 점표시 없애기 */

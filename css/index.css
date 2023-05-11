@@ -23,9 +23,18 @@
 #header .button{
   position: relative;
   z-index: 1;
+  display: flex;
+  gap: 20px;
 }
 #header .button button{
-
+  border: none;
+  color: white;
+  background-color: transparent;
+  cursor: url(../img/click.cur) , auto;
+  transition: all 0.6s;
+}
+#header .button button:hover{
+  color: #0acdce;
 }
 #title{
   height: 100%;
@@ -206,7 +215,7 @@
 }
 #ports .portfolio .subtext button:hover{
   color: black;
-  background-color: rgb(10, 205, 206)
+  background-color: rgb(10, 205, 206);
 }
 #cont{
   padding: 70px 150px;
@@ -218,6 +227,7 @@
   display: flex;
   column-gap: 5%;
   height: 330px;
+  position: relative;
 }
 #cont .contact figure{
   border: 1px solid;
@@ -244,5 +254,27 @@
   color: #bababa;
 }
 #cont .contact .subtextw p span{
-    
+/*   color: #0acdce; */
+}
+#cont .contact .subtextw button{
+  padding: 1% 2.5% 1% 5%;
+  position: absolute;
+  bottom: 0;
+  border: none;
+  background-color: #1b4c4c;
+  color: #0acdce;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  transition: all 0.5s;
+  cursor: url(../img/click.cur) ,auto !important;
+  background-image: url(../img/mail.svg);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: 25% 80%;
+}
+#cont .contact .subtextw button:hover{
+  
+  color: black;
+  background-color: rgb(10, 205, 206);
 }

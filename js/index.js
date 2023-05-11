@@ -31,6 +31,21 @@ $(document).ready(function(){
         vertical: false,
         infinite: true,
     });
+
+    function copyToClipboard(val) {
+        var t = document.createElement("textarea");
+        document.body.appendChild(t);
+        t.value = val;
+        t.select();
+        document.execCommand('copy');
+        document.body.removeChild(t);
+        }
+    
+        $('.copybtn1').click(function() {
+          copyToClipboard('pkpk5030@gmail.com');
+          alert('이메일 주소를 복사하였습니다.');
+        });
+    
 })
 
 
