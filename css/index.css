@@ -1,7 +1,7 @@
 #header{
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px;
+  padding: 10px 100px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -44,6 +44,7 @@
 }
 #header .button button:hover{
   color: #0acdce;
+  scale: 1.15;
 }
 #title{
   height: 100%;
@@ -58,7 +59,7 @@
   height: 100%;
   background-image: url(../img/title_bg.avif);
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 #title h1{
   font-size: 50px;
@@ -146,9 +147,17 @@
   font-weight: 700;
 }
 #profile .pf p{
-  margin-top: 5%;
+  margin-top: 4%;
   line-height: 1.5;
   color: #bababa;
+}
+#profile .pf .skills{
+  height: 30%;
+  background-image: url(../img/skills.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  margin-left: -1.5%;
 }
 #ports{
   padding: 70px 150px;
@@ -258,9 +267,11 @@
   word-spacing: 5px;
 }
 #cont .contact .subtextw p{
-  margin-top: 2.5%;
+  margin-top: 2.3%;
   line-height: 1.5;
   color: #bababa;
+  transition-delay: 1.5s;
+  transform: translate3d(0,20px,0) !important;
 }
 #cont .contact .subtextw p span{
 /*   color: #0acdce; */

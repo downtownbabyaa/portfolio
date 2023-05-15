@@ -22,3 +22,7 @@
 button{
     cursor: url(../img/click.cur), auto !important;
 }
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos]{
+    transition-delay: 0.5s;
+    transition-duration: 2.5s !important;
+}
