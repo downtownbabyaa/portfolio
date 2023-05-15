@@ -1,8 +1,8 @@
 .slick-prev{
-    left: -100px !important;
+    left: -50px !important;
 }
 .slick-next{
-    right: -100px !important;
+    right: -50px !important;
 }
 .slick-dots{
     bottom: -50px !important;
@@ -18,4 +18,7 @@
 .slick-dots li.slick-active button:before{
     opacity: 1 !important;
     scale: 1.7 !important;
+}
+button{
+    cursor: url(../img/click.cur), auto !important;
 }

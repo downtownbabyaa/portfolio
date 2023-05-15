@@ -5,7 +5,8 @@ html, body{
   padding: 0;
 }
 html{
-  overflow: hidden;
+  overflow: hidden !important;
+  scroll-behavior: smooth;
 }
 .list{
   height: 100%;
