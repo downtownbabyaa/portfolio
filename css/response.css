@@ -54,7 +54,8 @@
   }
   #ports .portfolio .subtext button{
     right: 0;
-    bottom: 30%;
+    bottom: 33%;
+    padding: 2% 6%;
   }
   #ports .slick-dots{
     bottom: 5px !important;
