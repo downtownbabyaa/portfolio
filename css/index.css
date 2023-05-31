@@ -176,16 +176,14 @@
   animation-timing-function: initial;
 }
 #ports .portfolio{
-  margin-top: 1.2%;
+  margin-top: 1%;
   display: flex;
-  height: 400px;
+  height: 333px;
   column-gap: 5%;
 }
 #ports .portfolio figure{
   width: 50%;
   height: 100%;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 2px #888;
 }
 #ports .portfolio figure img{
   width: 100%;
